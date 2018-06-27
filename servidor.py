@@ -74,5 +74,5 @@ def resolve_rcvd_msg(message, sender=0):
 
 
 if __name__ == "__main__":
-	
-	resolve_rcvd_msg(list(sys.argv)[1])
+
+	resolve_rcvd_msg(list(sys.argv)[2], list(sys.argv)[1] )
